@@ -2,13 +2,16 @@ package linkedlist;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        LinkedList linkedListist = new LinkedList();
-        linkedListist.add(1);
-        linkedListist.add(2);
-        linkedListist.add(3);
-        linkedListist.add(4);
+        LinkedList linkedList = new LinkedList();
+        linkedList.add(1);
+        linkedList.add(2);
+        linkedList.add(3);
+        linkedList.add(4);
+
+        linkedList.add(5, 2);
+        linkedList.add(9, 3);
 
         System.out.println("Linked list elements:");
-        linkedListist.print();
+        linkedList.print();
     }
 }
